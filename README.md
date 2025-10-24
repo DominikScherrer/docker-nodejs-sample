@@ -1,4 +1,4 @@
-# Anleitung Abschlussaufgabe Development Fundamentals
+# Anleitung Installation To-Do Applikation
 ---
 [TOC]
 
@@ -14,3 +14,13 @@
 
 2. Danach muss man in GitBash zum Ordner wechseln, indem man das Repositorie Lokal haben will. Anschliessend muss man mit "git clone <kopierter SSH-Schlüssel>" das Repositorie Klonen.
 ![GitBash Befehele](Images/GitBash.png)
+
+## Schritt 2 - Docker Initialisieren
+1. Um den Docker zu Initialisieren muss man im Terminal zuerst den Pfad zum Ordner docker-nodejs.sample angeben. Dannach muss man mit "doker init" den Docker Initialisieren und verschiedene Fragen beantworten.
+![Docker Initialisieren](Images/dockerinit.png)
+Die Fragen muss man so beantworten:
+? What application platform does your project use? **Node**
+? What version of Node do you want to use? **18.0.0**
+? Which package manager do you want to use? **npm**
+? What command do you want to use to start the app: **node src/index.js**
+? What port does your server listen on? **3000**
