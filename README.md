@@ -18,9 +18,20 @@
 ## Schritt 2 - Docker Initialisieren
 1. Um den Docker zu Initialisieren muss man im Terminal zuerst den Pfad zum Ordner docker-nodejs.sample angeben. Dannach muss man mit "doker init" den Docker Initialisieren und verschiedene Fragen beantworten.
 ![Docker Initialisieren](Images/dockerinit.png)
-Die Fragen muss man so beantworten:
+2. Die Fragen muss man so beantworten:
 ? What application platform does your project use? **Node**
 ? What version of Node do you want to use? **18.0.0**
 ? Which package manager do you want to use? **npm**
 ? What command do you want to use to start the app: **node src/index.js**
 ? What port does your server listen on? **3000**
+
+Nun sollte man folgenden Inhalt im "docker-nodejs-sample" -Verzeichnis haben:
+* spec/
+* src/
+* .dockerignore
+* .gitignore
+* compose.yaml
+* Dockerfile
+* package-lock.json
+* package.json
+* README.md
