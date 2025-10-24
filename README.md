@@ -35,3 +35,9 @@ Nun sollte man folgenden Inhalt im "docker-nodejs-sample" -Verzeichnis haben:
 * package-lock.json
 * package.json
 * README.md
+
+## Schritt 3 - Starte die Applikation
+1. Gib im Terminal (wieder im Verzeichnis "docker-nodejs-sample") den "docker compose up --build" Befehl ein, um die Applikation zu Starten:
+![Start der Applikation](Images/AppliStarten.png)
+2. Mit diesem [Link](http://localhost:3000) kann man im Browser die Applikation öffnen.
+3. Wenn man die Applikation stoppen möchte, muss man im Terminal die Tastenkombination "strg + c" benutzen.
